@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.block {
+	background-color: #008CBA;
+	height: 60px;
+  width: 100%;
+}
 .example .row .column, .example .row .columns {
   background: #e4e4e4;
   border: 1px solid #ccc;
@@ -9,8 +14,8 @@
 
 .example .row, .example .row .column, .example .row .columns {
   background: #f4f4f4;
-  height: 60px;
-  line-height: 60px;
+  height: 100px;
+  line-height: 100px;
 }
 
 [class*="column"] + [class*="column"]:last-child {
@@ -23,23 +28,26 @@
 }
 .column, .columns {
   position: relative;
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+/*  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;*/
   float: left;
 }
 }
 @media only screen and (min-width: 40.063em) {
 .column, .columns {
   position: relative;
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+/*  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;*/
   float: left;
 }
 }
 
+.row {
+  border: 1px solid #ccc;	
+}
 .column, .columns {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+/*  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;*/
   width: 100%;
   float: left;
   border: 1px solid #ccc;
@@ -77,3 +85,4 @@ body {
 html, body {
   font-size: 100%;
 }
+
