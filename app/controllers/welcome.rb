@@ -1,0 +1,5 @@
+class Welcome < ApplicationController
+
+
+
+end
