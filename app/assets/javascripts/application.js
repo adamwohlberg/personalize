@@ -20,10 +20,8 @@
 $(function(){ $(document).foundation(); });
 
 $(function() {
-  $( ".draggable" ).draggable();
+  $( ".draggable" ).draggable({ snap: ".columns" });
 });
-
-// $( ".draggable" ).draggable({ snap: true });
 
 $( ".draggable" ).click( function() {
 	alert('foo');
