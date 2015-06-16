@@ -12,10 +12,19 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui
 //= require foundation
 //= require turbolinks
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
 
-$( "#draggable" ).draggable({ snap: true });
+$(function() {
+  $( ".draggable" ).draggable();
+});
+
+// $( ".draggable" ).draggable({ snap: true });
+
+$( ".draggable" ).click( function() {
+	alert('foo');
+});

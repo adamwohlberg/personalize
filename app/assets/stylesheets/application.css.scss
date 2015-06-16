@@ -11,11 +11,25 @@
  * file per style scope.
  *
  *= require_tree .
- *= require_self
+ *= require jquery-ui
  *= require foundation 
  *= require foundation_and_overrides
+  *= require_self
 
  */
+.columns {
+  padding: 0;
+}
+.brick span {
+  margin-left: 15px;
+}
+.brick {
+	background-color: #008CBA;
+	height: 100%;
+  width: 100%;
+}
+
+
 
 
 
