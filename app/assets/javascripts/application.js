@@ -18,4 +18,4 @@
 
 $(function(){ $(document).foundation(); });
 
-$( "#draggable" ).draggable();
+$( "#draggable" ).draggable({ snap: true });
