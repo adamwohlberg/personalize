@@ -4,4 +4,3 @@ Developers can use this **draggable grid** to build applications which allow use
 
 It's open source - have at it.
 
-Thanks, Adam
