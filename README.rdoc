@@ -1,9 +1,0 @@
-This is a draggable grid based on Zurb-Foundation.
-
-Developers can use this grid to build applications which allow users to personalize the appearance of their page by dragging and dropping grid elements to various areas and saving the configuration parameters.
-
-It's open source - have at it. 
-
-Thanks,
-Adam
-
