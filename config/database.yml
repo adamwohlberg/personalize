@@ -9,7 +9,7 @@ default: &default
   encoding: unicode
   database: 
   pool: 5
-  username: 
+  username: adamwohlberg
   password:
 
 development:

@@ -23,11 +23,21 @@
 .brick span {
   margin-left: 15px;
 }
-.brick {
-	background-color: #008CBA;
+.lorem h1 {
+	padding-left: 15px;
+}
+.brick, .lorem {
 	height: 100%;
   width: 100%;
   z-index: 1;
+}
+.lorem {
+	background-color: #FFF;
+	padding: 20px;
+	line-height: 20px !important;
+}
+.brick {
+	background-color: #008CBA;
 }
 #tall {
   height: 500px;
