@@ -23,6 +23,6 @@ $(function() {
   $( ".draggable" ).draggable({ snap: ".columns" });
 });
 
-$( "#personalize").mouseOver(function(){
-	alert('foo');
+$("#personalize").click(function(){
+	console.log('foo')
 });
