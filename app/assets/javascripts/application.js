@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery-ui
-//= require jquery.ui.touch-punch.min
+//= require jquery.ui.touch-punch
 //= require foundation
 //= require turbolinks
 //= require_tree .
